@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Matthew Echenique | Official Site</title>
+    <meta name="description" content="Official website of Mark Matthew Echenique—competitive chess player from Northern Samar, Visayas. FIDE rated 1750.">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0b1329;
+            color: #f1f5f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            background: #172554;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            border: 1px solid #1e40af;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .avatar {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #2563eb, #d97706);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 42px;
+            color: #ffffff;
+            margin: 0 auto 16px;
+            box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+        }
+
+        h1 {
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 6px;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #fbbf24;
+            font-weight: 600;
+        }
+
+        .location {
+            font-size: 0.9rem;
+            color: #93c5fd;
+            margin-top: 4px;
+        }
+
+        .bio {
+            line-height: 1.6;
+            color: #e2e8f0;
+            margin-bottom: 28px;
+            text-align: center;
+            font-size: 0.98rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 28px;
+            text-align: center;
+        }
+
+        .stat-card {
+            background: #1e3a8a;
+            padding: 14px 10px;
+            border-radius: 10px;
+            border: 1px solid #3b82f6;
+        }
+
+        .stat-value {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #38bdf8;
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: #93c5fd;
+            letter-spacing: 0.05em;
+            margin-top: 4px;
+        }
+
+        .section-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #fbbf24;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .highlights {
+            list-style: none;
+            margin-bottom: 28px;
+        }
+
+        .highlights li {
+            background: #0f172a;
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            color: #cbd5e1;
+            border-left: 3px solid #d97706;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .link-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #0f172a;
+            padding: 14px 20px;
+            border-radius: 10px;
+            color: #f8fafc;
+            text-decoration: none;
+            border: 1px solid #1e40af;
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+
+        .link-card:hover {
+            border-color: #fbbf24;
+            transform: translateY(-2px);
+            background: #1e293b;
+        }
+
+        .footer {
+            margin-top: 35px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        @media (max-width: 480px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="avatar">♟</div>
+        <h1>Mark Matthew Echenique</h1>
+        <p class="subtitle">Competitive Chess Player & Tactical Strategist</p>
+        <p class="location">Northern Samar, Eastern Visayas, Philippines</p>
+    </div>
+
+    <p class="bio">
+        Official personal profile of Mark Matthew Echenique. A 16-year-old competitive chess player born June 26, 2010. Recognized for analytical depth, endgame precision, and active participation in top-tier regional and open tournaments across the Visayas.
+    </p>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-value">1750</div>
+            <div class="stat-label">FIDE Rating</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">16</div>
+            <div class="stat-label">Age</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">Visayas</div>
+            <div class="stat-label">Region</div>
+        </div>
+    </div>
+
+    <div class="section-title">Tournament & Career Highlights</div>
+    <ul class="highlights">
+        <li>🏆 <strong>Northern Samar Open Chess Championship:</strong> Top Junior Division Contender</li>
+        <li>⚔️ <strong>Visayas Regional Youth Invitational:</strong> Undefeated in Classical Swiss Rounds</li>
+        <li>🧠 <strong>Tactical Mastery:</strong> Specializing in Sicilian Defense & King's Indian Systems</li>
+    </ul>
+
+    <div class="section-title">Connect & Profiles</div>
+    <div class="links">
+        <a href="https://chess.com" target="_blank" class="link-card">
+            <span>Chess.com Profile</span>
+            <span>→</span>
+        </a>
+        <a href="https://lichess.org" target="_blank" class="link-card">
+            <span>Lichess Arena</span>
+            <span>→</span>
+        </a>
+        <a href="mailto:contact@example.com" class="link-card">
+            <span>Tournament Inquiries</span>
+            <span>→</span>
+        </a>
+    </div>
+
+    <div class="footer">
+        © <script>document.write(new Date().getFullYear())</script> Mark Matthew Echenique. Official Player Page.
+    </div>
+</div>
+
+</body>
+</html>
